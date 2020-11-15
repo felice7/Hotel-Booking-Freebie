@@ -203,3 +203,225 @@ header {
 
 /* TERMINATA SEZIONE HEADER */
 
+
+
+/* ---INIZIO PARTE CENTRALE */
+/* -- INIZIO SLIDER */
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #F5FAFE;
+    width: 100%;
+    font-family: "Mulish";
+    color: #333333;
+}
+
+.bread__crump {
+    width: 1100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.bread__crump p {
+    font-size: 10px;
+    line-height: 13px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    height: 100px;  
+}
+
+.name__title {
+    display: flex;
+    align-items: center;
+}
+
+.name__title h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.name__rectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 20px;
+    background: #EC1F46;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.name__title p {
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+.name__subtitle {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 15px;
+}
+
+.rattings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 45px;
+    border-radius: 4px;
+    background: #EC1F46;
+    font-family: "Mulish";
+    color: #FFFFFF;
+}
+
+.rattings__user {
+    font-size: 8px;
+    font-weight: 600;
+}
+
+.rattings__numbers {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.rattings__numbers span {
+    font-size: 10px;
+}
+
+.slider {
+    display: flex;
+    width: 1100px;
+    height: 450px;
+}
+
+.slider__foto {
+    width: 728px;
+    height: 450px;
+    border-radius: 8px;
+}
+
+
+.slider__right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: space-between;
+    height: 450px;
+}
+
+.booking {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    width: 350px;
+    height: 210px;
+    border-radius: 8px;
+    background: #0A223D;
+    color: #FFFFFF;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;  
+}
+
+.booking__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 295px;
+    margin-top: 20px;
+}
+
+.booking__left {
+    display: flex;
+    flex-wrap: wrap;
+    width: 86px;
+    height: 59px;
+}
+
+.booking__left p {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.booking__left h4 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.booking__right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80px;
+    height: 40px; 
+}
+
+.booking__right img {
+    width: 14px;
+    height: 14px;
+}
+
+.booking__right p {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+
+.booking__phone {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+    width: 295px;
+}
+
+.booking__phone h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.booking__phone p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.booking__phone p img {
+    width: 14px;
+    height: 14px;
+    margin-right: 7px;
+}
+
+.booking__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 295px;
+    height: 45px;
+    border-radius: 4px;
+    background: #EC1F46;
+    margin-bottom: 20px;
+}
+
+.booking__button p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.maps {
+    width: 347px;
+    height: 213px;
+}
