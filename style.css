@@ -916,3 +916,447 @@ header {
     background: url(image/img/photo-7.jpg);
     border-radius: 8px 8px 0px 0px;
 }
+
+/* TERMINE SEZIONE OTHER PACKAGES */
+
+.guest__review {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 1100px;
+    height: 325px;
+}
+
+.guest__review__package-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 731px;
+    height: 280px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.profile {
+    position: relative;
+    bottom: 50px;
+}
+
+.profile__card {
+    width: 97px;
+    height: 149px;
+    text-align: center;
+}
+
+.profile__card h3 {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #EC1F46;
+    margin: 10px 0;
+}
+
+.profile__card p {
+    font-size: 10px;
+    line-height: 13px;
+    color: #000000;
+}
+
+.guest__review__package-card__text {
+    width: 607px;
+    height: 237.25px;
+    font-size: 12px;
+    line-height: 160%;
+    text-align: justify;
+}
+
+.arrow {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 1074px;
+    height: 30px;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 260px;
+    background-image: url(image/img/photo-9.jpg);
+    background-blend-mode: saturation;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.newsletter__container  {
+    display: flex;
+    align-items: center;
+    width: 731px;
+    height: 75px;
+    color: #FFFFFF;
+}
+
+.newsletter__container__left {
+    width: 100%;  
+}
+
+.newsletter__container__left p {
+    font-size: 24px;
+}
+
+.newsletter__container__left h1 {
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.newsletter__container__right {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter__container__right .find-bar input {
+    width: 285px;
+    height: 55px;
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.newsletter__container__right .send-bar input {
+    width: 65px;
+    height: 55px;
+    background: #EC1F46;
+    border: none;
+    border-radius: 0px 4px 4px 0px;
+    font-family: "Mulish";
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.newsletter__container__right .find-bar::placeholder {
+    font-size: 14px;
+    line-height: 18px;
+    color: #BDBDBD;    
+}
+
+.other-activity {
+    width: 1110px;
+    height: 50px;
+    margin: 60px 0;
+}
+
+.other-activity h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+
+}
+
+.other-activity__card {
+    width: 1100px;
+    height: 255px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.other-activity__card .text {
+    margin-left: 30px;
+    margin-top: 140px;
+}
+
+.other-activity__card p {
+    width: 160px;
+    height: 40px;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.other-activity__card button {
+    width: 100px;
+    height: 30px;
+    background: #EC1F46;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.other-activity__card__1 {
+    width: 255px;
+    height: 255px;
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(image/img/photo-10.jpg);
+    border-radius: 6px;
+}
+.other-activity__card__2 {
+    width: 255px;
+    height: 255px;
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(image/img/photo-11.jpg);
+    border-radius: 6px;
+}
+.other-activity__card__3 {
+    width: 255px;
+    height: 255px;
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(image/img/photo-12.jpg);
+    border-radius: 6px;
+}
+.other-activity__card__4 {
+    width: 255px;
+    height: 255px;
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(image/img/photo-13.jpg);
+    border-radius: 6px;
+}
+
+.other-activity__card__4 p {
+    width: 200px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+    background: #0A223D;
+    color: #FFFFFF;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    height: 223px;
+}
+
+.footer-top__logo {
+    width: 166px;
+    height: 192px;
+}
+
+.footer-top__logo h1 {
+    font-family: "Luckiest Guy";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 64px;
+}
+
+.footer-top__list {
+    height: 218px;
+}
+
+.footer-top__list h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.footer-top__list ul {
+    padding: 25px 0;
+}
+
+.footer-top__list ul li {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    color: #BDBDBD;
+}
+
+.footer-top__list ul li {
+    list-style: none;
+}
+
+.social-network {
+    width: 293px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-network__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-network__icons .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background: #BDBDBD;
+    margin-left: 10px;
+}
+
+.social-network__icons .iconify {
+    width: 15px;
+    height: 15px;
+    color: #0A223D;
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: space-between;
+    width: 1113px;
+    height: 317px;
+    margin-top: 50px;
+}
+
+.footer-contact-left {
+    width: 493px;
+    height: 245px;
+    
+}
+
+.footer-contact-left h1 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.footer-contact-left p {
+    font-size: 14px;
+    line-height: 23px;
+    color: #BDBDBD;
+}
+
+.footer-contact-left__contacts__details {
+    
+}
+
+.footer-contact-left__text {
+ display: flex;
+ margin:20px 0 20px;
+}
+
+
+.footer-contact-left__text .iconify {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+    color: #BDBDBD;
+}
+
+.footer-contact-left__text p {
+    font-size: 14px;
+    line-height: 160%;
+    color: #BDBDBD;
+}
+
+
+.footer-contact-right {
+    width: 539px;
+    height: 245px;
+}
+
+.footer-contact-right__message {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.find {
+    width: 539px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-contact-right h1 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer-contact-right .find-bar {
+    width: 255px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.footer-contact-right .message {
+    width: 539px;
+    height: 123px;
+    border: none;
+    border-radius: 4px;
+}
+
+.find-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 539px;
+    height: 50px; 
+    margin-top: 20px;  
+}
+
+.find-button button {
+    width: 160px;
+    height: 50px;
+    background: #EC1F46;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.find-button p {
+    font-family: "Mulish";
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #E0E0E0;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: flex-end;
+    width: 1100px;
+    height: 22px;
+    margin-top: 100px;
+}
+
+.footer-bottom-element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 696px;
+}
+
+.footer-bottom-text {
+    width: 283px;
+}
+
+.footer-bottom-text p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
+
